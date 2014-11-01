@@ -7,11 +7,11 @@ ASSIGNMENT 3
 
 Q. How do you add nodes to your Hadoop cluster? 
 
-<<<<<<< HEAD
-The best way to install and setup a multi node cluster is to start installing two individual single node Hadoop clusters and merge them together with minimal configuration changes in which one Ubuntu box will become the designated master and the other box�s will become a slave, we can add n number of slaves as per our future request.
-=======
+
 The best way to install and setup a multi node cluster is to start installing two individual single node Hadoop clusters and merge them together with minimal configuration changes in which one Ubuntu box will become the designated master and the other box’s will become a slave, we can add n number of slaves as per our future request.
->>>>>>> fd3383abc02cb09f47fffe081d63177ff0f6deb6
+
+The best way to install and setup a multi node cluster is to start installing two individual single node Hadoop clusters and merge them together with minimal configuration changes in which one Ubuntu box will become the designated master and the other boxâ€™s will become a slave, we can add n number of slaves as per our future request.
+
 
 
 
@@ -20,11 +20,11 @@ The best way to install and setup a multi node cluster is to start installing tw
 
 
 
-<<<<<<< HEAD
-Networking plays an important role here, before merging both single node servers into a multi node cluster we need to make sure that both the node pings each other .Now we need to select the master node and slave node,  we need to add them in �/etc/hosts� file on each machine by entering 
-=======
+
 Networking plays an important role here, before merging both single node servers into a multi node cluster we need to make sure that both the node pings each other .Now we need to select the master node and slave node,  we need to add them in ‘/etc/hosts’ file on each machine by entering 
->>>>>>> fd3383abc02cb09f47fffe081d63177ff0f6deb6
+
+Networking plays an important role here, before merging both single node servers into a multi node cluster we need to make sure that both the node pings each other .Now we need to select the master node and slave node,  we need to add them in â€˜/etc/hostsâ€™ file on each machine by entering 
+
 
 sudo vi /etc/hosts
 

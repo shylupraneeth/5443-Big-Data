@@ -18,11 +18,11 @@ Example : If you have an excel spreadsheet(saved as a csv file) of four columns.
  -----------------------
  - I would like to prefer the CSV file to convert into JSON because :
     
-<<<<<<< HEAD
-    if you want to provide JSON-based results from the SQL, you are faced with a problem, because SQL Server doesn�t currently have native JSON-integration. You would normally  craft the SQL to do this �by hand� for the specific job, using one of a variety of techniques. However, what if the developers needed to have large variety of results, though there will be a performance hit to using a generic solution that will produce JSON from any SQL. Until SQL Server provides �native� JSON support it will be rather slow, but not difficult.
-=======
+
     if you want to provide JSON-based results from the SQL, you are faced with a problem, because SQL Server doesn’t currently have native JSON-integration. You would normally  craft the SQL to do this ‘by hand’ for the specific job, using one of a variety of techniques. However, what if the developers needed to have large variety of results, though there will be a performance hit to using a generic solution that will produce JSON from any SQL. Until SQL Server provides ‘native’ JSON support it will be rather slow, but not difficult.
->>>>>>> fd3383abc02cb09f47fffe081d63177ff0f6deb6
+
+    if you want to provide JSON-based results from the SQL, you are faced with a problem, because SQL Server doesnâ€™t currently have native JSON-integration. You would normally  craft the SQL to do this â€˜by handâ€™ for the specific job, using one of a variety of techniques. However, what if the developers needed to have large variety of results, though there will be a performance hit to using a generic solution that will produce JSON from any SQL. Until SQL Server provides JSON support it will be rather slow, but not difficult.
+
 
     If you prefer converting xml to JSON i feel that the you need a large amount of size to store the data , as xml files are probably big in their size .So, i believe that converting CSV to JSON is easy and we get the results in more organised way .
     
@@ -76,17 +76,13 @@ MAIN DIFFERENCES :
 | sql  |Structured Query Language (insert statements) | 467MB   |     60MB      | 87.1  |
 | xml  |EXtensible Markup Language                    | 2.3GB   |     75MB      | 96.7  |
 | yml  |Yet Another Markup Language                   | 771MB   |     61MB      | 92.0  |
-<<<<<<< HEAD
-| Json |Javascript Object Notation                    | 824MB     |               |       |
-
-When we convert CSV file to Json file the file size is 824 MB
-=======
 | Json |Javascript Object Notation                    | 824MB   |               |       |
 
-When we convert CSV file to Json file the file size is 824MB
->>>>>>> fd3383abc02cb09f47fffe081d63177ff0f6deb6
+When we convert CSV file to Json file the file size is 824 MB
+
+
    
-%   >Compressed when compared to original file size.
+
   
                                                       
                                                       
