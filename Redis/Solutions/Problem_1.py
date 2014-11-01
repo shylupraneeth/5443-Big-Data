@@ -10,7 +10,7 @@ def is_json(myjson):
 		return False
 	return True
 #opening for reading a file			
-f=open('/var/www/html/5443-Big-Data/Redis/nutrition_clean.json','r')
+f=open('/var/www/html/5443-Big-Data/Redis/nutrition.json','r')
 
 r=redis.StrictRedis(host='localhost',port=6379,db=0)
 #iterating a file
