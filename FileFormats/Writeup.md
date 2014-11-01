@@ -84,9 +84,9 @@ When we convert CSV file to Json file the file size is 824 MB
 | Json |Javascript Object Notation                    | 824MB   |               |       |
 
 When we convert CSV file to Json file the file size is 824MB
->>>>>>> fd3383abc02cb09f47fffe081d63177ff0f6deb6
+
    
-%   >Compressed when compared to original file size.
+
   
                                                       
                                                       
