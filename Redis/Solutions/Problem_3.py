@@ -1,25 +1,24 @@
 import redis
-import string
-import json
 import sys
+import json
+import string
 
-#Link up with redis 
-r = redis.Redis(host='localhost', port=6379, db=0)
-r.flushdb()
-f = open('nutrition.json','r')
-# Read one line from file
+def is_json(myjson):
+	try:
+		json_object=json.loads(myjson)
+	except ValueError,e:
+		return False
+	return True
+#opening for reading a file			
+f=open('/var/www/html/5443-Big-Data/Redis/nutrition.json','r')
 
+r=redis.StrictRedis(host='localhost',port=6379,db=0)
+#iterating a file
 for line in f:
-    # Filter that line, removing non ascii characters
-    # Doesn't identify which, just filters
-    line = json.loads(filter(lambda x: x in string.printable, line))
-    #Print the line nicely formatted
-    #print json.dumps(line, sort_keys=True,indent=4, separators=(',', ': '))
-
-    for nut in line['nutrients']:
-        r.zincrby('taghash',nut['tagname'],1)
-LenZList=r.zcard('taghash')
-listVals=r.zrange('taghash',LenZList-5,LenZList)
-for test in listVals:
-	print test
-	print r.zscore('taghash',test)
+	if is_json(line):
+		line = json.loads(filter(lambda x: x in string.printable, line))
+		nutrients = line['nutrients']
+		for nutrient in nutrients:
+			
+			r.zincrby('',nutrient['tagname'],1)
+print r.zrange("nutrient", 1, 5)
