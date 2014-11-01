@@ -1,3 +1,5 @@
+REFERENCES
+
 [1] Yu Chan , Andy Wellings , Ian Gray , Neil Audsley, On the Locality of Java 8 Streams in Real-Time Big Data Applications , JTRES’14 , October 13-14,2014, Niagara Falls , NY , USA , 20-28.
 
 

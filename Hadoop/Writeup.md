@@ -5,7 +5,7 @@ ASSIGNMENT 3
 ![Alt text](http://i.imgur.com/F1mnnYy.png "Optional title")
 
 
-Q. How do you add nodes to your Hadoop cluster? 
+Q. How do you add nodes to your Hadoop cluster? ?
 
 
 The best way to install and setup a multi node cluster is to start installing two individual single node Hadoop clusters and merge them together with minimal configuration changes in which one Ubuntu box will become the designated master and the other box’s will become a slave, we can add n number of slaves as per our future request.

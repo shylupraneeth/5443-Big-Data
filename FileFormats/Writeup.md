@@ -2,7 +2,7 @@ What language you choose, and why ?
 -----
 - I would like to use python language to convert the CSV files to JSON because my reaserch made me know that converting to JSON formats with python will be more easy and they are well organised.
 
-Example : If you have an excel spreadsheet(saved as a csv file) of four columns. The first and third columns contain words,              the second and fourth columns contain frequency. So if it looks something like this:
+Example : If you have an excel spreadsheet(saved as a csv file) of four columns. The first and third columns contain words,   the second and fourth columns contain frequency. So if it looks something like this:
 
                   word1, freq1, word2, freq2
                   word3, freq3, word4, freq4
