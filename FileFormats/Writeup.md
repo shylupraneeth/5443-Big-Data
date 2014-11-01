@@ -76,14 +76,10 @@ MAIN DIFFERENCES :
 | sql  |Structured Query Language (insert statements) | 467MB   |     60MB      | 87.1  |
 | xml  |EXtensible Markup Language                    | 2.3GB   |     75MB      | 96.7  |
 | yml  |Yet Another Markup Language                   | 771MB   |     61MB      | 92.0  |
-<<<<<<< HEAD
-| Json |Javascript Object Notation                    | 824MB     |               |       |
-
-When we convert CSV file to Json file the file size is 824 MB
-=======
 | Json |Javascript Object Notation                    | 824MB   |               |       |
 
-When we convert CSV file to Json file the file size is 824MB
+When we convert CSV file to Json file the file size is 824 MB
+
 
    
 
